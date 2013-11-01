@@ -38,7 +38,20 @@
     }
   }
 
-  $.fn.thumbPreview = function(){
+  var preloadImages = function(imageElements){
+    imageElements.each(function(i, img){
+      $.each($(img).data('images'), function(i, imgSrc){
+        $('<img/>').attr('src', imgSrc);
+      })
+    });
+  }
+
+  $.fn.thumbPreview = function(options){
+    var options = options || {};
+
+    if(options.preload){
+      preloadImages(this);
+    }
 
     this.on('mousemove', function(e){
       var target = $(e.target);
