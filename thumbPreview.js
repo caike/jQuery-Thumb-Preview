@@ -43,7 +43,7 @@
     this.on('mousemove', function(e){
       var target = $(e.target);
       var allImages = target.data('images');
-      var sectionWidth = parseInt(target.css('width')) / allImages.length;
+      var sectionWidth = parseInt(target.css('width'), 10) / allImages.length;
       var positionX = e.clientX - $(this).offset().left;
       changeImage(target, allImages, positionX, sectionWidth)
     });
