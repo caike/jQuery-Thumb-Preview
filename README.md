@@ -2,7 +2,7 @@
 
 This is a jQuery plugin that provides a thumbnail preview effect controlled by mousemove events.
 
-![](http://caikesouza.com/images/thumbPreview.gif)
+![](https://raw.githubusercontent.com/caike/jQuery-Thumb-Preview/master/docs/preview.gif)
 
 ##Installation
 
