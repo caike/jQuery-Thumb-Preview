@@ -1,0 +1,25 @@
+{
+  "name": "jQuery-Thumb-Preview",
+  "version": "0.0.1",
+  "homepage": "https://github.com/caike/jQuery-Thumb-Preview",
+  "authors": [
+    "Carlos Souza <carloshrsouza@gmail.com>"
+  ],
+  "description": "A jQuery plugin that provides multiple thumbnail preview effect on mousemove.",
+  "main": "jquery.thumb.preview.js",
+  "keywords": [
+    "jquery",
+    "thumbnail",
+    "preview",
+    "mousemove"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": { "jquery": "1.11.0" }
+}
