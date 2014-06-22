@@ -11,7 +11,7 @@ Just download the file and make sure you are using jQuery.
 If you are using Rails and the Asset Pipeline, copy the [jquery.thumb.preview.js](https://raw.github.com/caike/jQuery-Thumb-Preview/master/jquery.thumb.preview.js) file to the **vendor/assets/javascript** directory and reference it from your JavaScript Manifest file, typically found under **app/assets/javascripts/application.js**
 
 ```javascript
-//= require thumbPreview
+//= require jquery.thumb.preview
 ```
 
 ##Examples
